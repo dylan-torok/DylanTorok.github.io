@@ -1,0 +1,23 @@
+<a href="{{ .RelPermalink }}" >
+    <div class="card">
+        <header class="card-header">
+            <div class="card-header-title is-centered">{{ .Title }}</div>
+        </header>
+        <div class="card-image">
+                <img class="image is-128x128" src="{{ .Params.image }}" alt="">
+        </div>
+        <div class="card-content">
+            <div class="media-content">
+                <p class="title">{{ .Site.Params.Author }}</p>
+                <p class="subtitle">{{ .PublishDate.Format "January 2, 2006"}}</p>
+            </div>
+            <div class="content">{{ .Content }}</div>
+        </div>
+        <div class="card-footer">
+            {{range $category := .Params.categories}}
+            <a href="{{ "categories/" | relURL }}{{ $category | urlize }}" class="card-footer-item">{{ $category }}</>
+            {{ end }}
+        </div>
+    
+    </div>
+    </a>
