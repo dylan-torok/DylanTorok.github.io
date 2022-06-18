@@ -1,6 +1,6 @@
 ---
 title: "Article 2"
-date: 2022-05-09T09:08:12+02:00
+date: 2022-06-18T09:08:12+02:00
 draft: false
 categories : ["Projet", "Développement web"]
 image : http://www.pierre-giraud.com/html-css/cours-complet/imgs/logo-html5-css3.png

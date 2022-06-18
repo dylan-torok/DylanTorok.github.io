@@ -1,6 +1,6 @@
 ---
 title: "Article 1"
-date: 2022-05-23T09:35:04+02:00
+date: 2022-06-18T09:35:04+02:00
 draft: false
 categories: ["Développement Web", "Python"]
 image : https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png

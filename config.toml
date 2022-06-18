@@ -1,4 +1,4 @@
-baseURL = 'https://chevaltin.github.io/Portfolio/'
+baseURL = 'https://github.com/dylan-torok/DylanTorok.github.io'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'iutdelens'
@@ -22,7 +22,7 @@ theme = 'iutdelens'
 
 [[menu.social]]
   name = "Twitter"
-  url = "https://twitter.com/Chevalt1"
+  url = "https://twitter.com/Dylan-Torok"
   pre = "<i class='fab fa-twitter'></i>"
 
 [[menu.footer]]
@@ -39,7 +39,6 @@ theme = 'iutdelens'
 
 [params]
   author = "Moi"
-  authorImage = "Portfolio/images/bother.jpg"
 
 paginate = 6
 
